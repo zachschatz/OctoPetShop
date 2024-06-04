@@ -1,7 +1,4 @@
 - op: replace
-  path: /spec/replicas
-  value: 2  # New number of replicas for the staging environment
-- op: replace
   path: /spec/template/spec/containers/0/ports/0/containerPort
   value: 5020
 - op: replace

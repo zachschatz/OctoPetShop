@@ -1,6 +1,6 @@
 - op: replace
   path: /spec/replicas
-  value: 3  # New number of replicas for the dev environment
+  value: 3  # New number of replicas for the prod environment
 - op: replace
   path: /spec/template/spec/containers/0/ports/0/containerPort
   value: 5030
